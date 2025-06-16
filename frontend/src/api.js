@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://agent-app-a3w6z.ondigitalocean.app";
 
 export const reflect = async (thought) => {
   const res = await axios.get(`${API_BASE}/reflect`, {
